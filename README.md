@@ -88,3 +88,5 @@ To set up the services in Render for the first time:
 
 ## 🔒 Production Architecture
 In production environments (when `APP_MODE` is not set to `demo`), the application uses **MongoDB** and **Firebase Auth**. The Demo Mode completely isolates and disables these production systems to ensure safe and standalone testing.
+
+# school-demo
