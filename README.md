@@ -78,7 +78,7 @@ To set up the services in Render for the first time:
 - **Publish Directory:** `dist`
 - **Environment Variables:**
   - `VITE_APP_MODE` = `demo`
-  - `VITE_API_URL` = *(Your Backend Web Service URL, e.g. `https://your-backend.onrender.com`)*
+  - `VITE_API_URL` = *(Your Backend URL + /api, e.g. `https://your-backend.onrender.com/api`)*
 
 ### Student Frontend (Static Site)
 - **Root Directory:** `student-frontend`
@@ -86,7 +86,7 @@ To set up the services in Render for the first time:
 - **Publish Directory:** `dist`
 - **Environment Variables:**
   - `VITE_APP_MODE` = `demo`
-  - `VITE_API_URL` = *(Your Backend Web Service URL)*
+  - `VITE_API_URL` = *(Your Backend URL + /api)*
 
 ---
 
