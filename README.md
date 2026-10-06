@@ -76,13 +76,17 @@ To set up the services in Render for the first time:
 - **Root Directory:** `frontend`
 - **Build Command:** `npm install && npm run build`
 - **Publish Directory:** `dist`
-- **Environment Variables:** `VITE_APP_MODE` = `demo`
+- **Environment Variables:**
+  - `VITE_APP_MODE` = `demo`
+  - `VITE_API_URL` = *(Your Backend Web Service URL, e.g. `https://your-backend.onrender.com`)*
 
 ### Student Frontend (Static Site)
 - **Root Directory:** `student-frontend`
 - **Build Command:** `npm install && npm run build`
 - **Publish Directory:** `dist`
-- **Environment Variables:** `VITE_APP_MODE` = `demo`
+- **Environment Variables:**
+  - `VITE_APP_MODE` = `demo`
+  - `VITE_API_URL` = *(Your Backend Web Service URL)*
 
 ---
 
